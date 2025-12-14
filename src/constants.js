@@ -151,7 +151,7 @@ export const education = [
     id: 0,
     img: glaLogo,
     school: "RMLAU University, Uttar Pradesh",
-    date: "Sept 2022 - July 2024",
+    date: "Sept 2022 - July 2025",
     grade: "8.11 CGPA",
     desc: "I have completed my Bachelor's degree (BCA) in Computer Applications from RMLAU University, Uttar Pradesh. During my time at college, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering.",
     degree: "Bachelor of Computer Applications - BCA",
