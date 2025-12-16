@@ -3,7 +3,7 @@
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live](https://vercel.com/web-xw-izard/)
+🔗 [View Portfolio Live](https://devops-portfolio-kappa.vercel.app/)
 
 ## 🛠️ Tech Stack
 
