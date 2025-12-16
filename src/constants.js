@@ -39,28 +39,60 @@ import MajorLogo from "./assets/work_logo/Major.png";
 import MinorLogo from "./assets/work_logo/Minor.png";
 import GYMLogo from "./assets/work_logo/Gym.png";
 
-
 export const SkillsInfo = [
   {
     title: "DevOps Tools",
     skills: [
-      { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-      { name: "Kubernetes", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
-      { name: "Jenkins", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
+      {
+        name: "Docker",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      },
+      {
+        name: "Kubernetes",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+      },
+      {
+        name: "Jenkins",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+      },
       { name: "GitHub Actions", logo: githubLogo },
-      { name: "Terraform", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" },
-      { name: "Ansible", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" },
+      {
+        name: "Terraform",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
+      },
+      {
+        name: "Ansible",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg",
+      },
     ],
   },
   {
     title: "Cloud & Monitoring",
     skills: [
-      { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
-      { name: "Linux", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
-      { name: "Bash", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
-      { name: "Prometheus", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" },
-      { name: "Grafana", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" },
-      { name: "Nginx", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" },
+      {
+        name: "AWS",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+      },
+      {
+        name: "Linux",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      },
+      {
+        name: "Bash",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+      },
+      {
+        name: "Prometheus",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg",
+      },
+      {
+        name: "Grafana",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg",
+      },
+      {
+        name: "Nginx",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
+      },
     ],
   },
   {
@@ -72,8 +104,8 @@ export const SkillsInfo = [
       { name: "React JS", logo: reactjsLogo },
       { name: "Next JS", logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
-      { name: "GSAP", logo: gsapLogo },
-      { name: "Bootstrap", logo: bootstrapLogo },
+      // { name: "GSAP", logo: gsapLogo },
+      // { name: "Bootstrap", logo: bootstrapLogo },
     ],
   },
   {
@@ -90,14 +122,14 @@ export const SkillsInfo = [
   {
     title: "Languages & Tools",
     skills: [
-      { name: "C", logo: cLogo },
-      { name: "C++", logo: cppLogo },
-      { name: "Java", logo: javaLogo },
-      { name: "Python", logo: pythonLogo },
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
+      { name: "Java", logo: javaLogo },
+      { name: "Python", logo: pythonLogo },
       { name: "VS Code", logo: vscodeLogo },
       { name: "Vercel", logo: vercelLogo },
+       // { name: "C", logo: cLogo },
+      // { name: "C++", logo: cppLogo },
     ],
   },
 ];
@@ -141,7 +173,7 @@ export const experiences = [
       "MongoDb",
       "Next Js",
       "TailwindCSS",
-      "REST APIs"
+      "REST APIs",
     ],
   },
 ];
@@ -151,12 +183,12 @@ export const education = [
     id: 0,
     img: glaLogo,
     school: "RMLAU University, Uttar Pradesh",
-    date: "Sept 2022 - July 2025",
+    date: "Sept 2022 - July 2024",
     grade: "8.11 CGPA",
     desc: "I have completed my Bachelor's degree (BCA) in Computer Applications from RMLAU University, Uttar Pradesh. During my time at college, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering.",
     degree: "Bachelor of Computer Applications - BCA",
   },
- 
+
   {
     id: 1,
     img: ssicLogo,
@@ -183,7 +215,8 @@ export const projects = [
     title: "Automated MERN Deployment (CI/CD)",
     description:
       "Containerized a full-stack MERN application using Docker, ensuring consistency across environments. Designed an automated Jenkins pipeline integrated with GitHub Actions for seamless Build & Deploy. Deployed the application on AWS EC2, configuring Nginx as a reverse proxy for security.",
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     tags: ["Docker", "Jenkins", "AWS EC2", "Nginx", "GitHub Actions", "CI/CD"],
     github: "https://github.com/WebXWizard",
     webapp: "https://github.com/WebXWizard",
@@ -193,7 +226,8 @@ export const projects = [
     title: "Infrastructure as Code using Terraform",
     description:
       "Provisioned a complete, reproducible AWS infrastructure (VPC, Subnets, Security Groups) using Terraform. Implemented remote state management using S3 bucket and DynamoDB for state locking.",
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
     tags: ["Terraform", "AWS VPC", "S3", "DynamoDB", "IaC"],
     github: "https://github.com/WebXWizard",
     webapp: "https://github.com/WebXWizard",
@@ -203,7 +237,8 @@ export const projects = [
     title: "Kubernetes Cluster with Monitoring",
     description:
       "Orchestrated a local Kubernetes cluster using Minikube and deployed a Node.js microservice. Integrated Prometheus and Grafana for real-time cluster monitoring (CPU, Memory).",
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
     tags: ["Kubernetes", "Minikube", "Prometheus", "Grafana", "Node.js"],
     github: "https://github.com/WebXWizard",
     webapp: "https://github.com/WebXWizard",
@@ -224,7 +259,7 @@ export const projects = [
       "MongoDb",
       "Next Js",
       "TailwindCSS",
-      "REST APIs"
+      "REST APIs",
     ],
     github: "https://github.com/WebXWizard/AADITYA-HUB",
     webapp: "https://www.aadityaacomputer.com/",
@@ -245,7 +280,7 @@ export const projects = [
       "MongoDb",
       "Next Js",
       "TailwindCSS",
-      "REST APIs"
+      "REST APIs",
     ],
     github: "https://github.com/WebXWizard/MAJOR-DIY_Innovators",
     webapp: "https://github.com/WebXWizard/MAJOR-DIY_Innovators",
@@ -256,7 +291,15 @@ export const projects = [
     description:
       "A web-based library directory that enables users to browse, search, and manage library resources with ease. The application features a responsive interface and dynamic content updates for efficient data handling.",
     image: MinorLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "NextJS", "REST APIs"],
+    tags: [
+      "React JS",
+      "API",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "NextJS",
+      "REST APIs",
+    ],
     github: "https://github.com/codingmastr/Movie-Recommendation-App",
     webapp: "https://movie-recommendation-app-jet.vercel.app/",
   },
@@ -268,6 +311,7 @@ export const projects = [
     image: GYMLogo,
     tags: ["HTML", "CSS", "JS", "TailwindCSS"],
     github: "https://github.com/WebXWizard/FITHUB-LANDING-PAGE/tree/main",
-    webapp: "https://drive.google.com/file/d/1nV_qeMwNc4qKLGpqFpAP2kZqARd3wRZR/view?usp=sharing",
+    webapp:
+      "https://drive.google.com/file/d/1nV_qeMwNc4qKLGpqFpAP2kZqARd3wRZR/view?usp=sharing",
   },
 ];
