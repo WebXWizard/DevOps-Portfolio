@@ -21,11 +21,6 @@ import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
-import problemSolverIcon from "../assets/problem-solver.png";
-import quickLearnerIcon from "../assets/quick-learner.jfif";
-import leadershipIcon from "../assets/leadership.jpg";
-import teamIcon from "../assets/team.png";
-import automationIcon from "../assets/automation.jfif";
 
 // Experience Section Logo's
 
@@ -127,24 +122,14 @@ export const SkillsInfo = [
   {
     title: "Languages & Tools",
     skills: [
-      { name: "Java", logo: javaLogo },
-      { name: "Python", logo: pythonLogo },
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
+      { name: "Java", logo: javaLogo },
+      { name: "Python", logo: pythonLogo },
       { name: "VS Code", logo: vscodeLogo },
       { name: "Vercel", logo: vercelLogo },
-      // { name: "C", logo: cLogo },
+       // { name: "C", logo: cLogo },
       // { name: "C++", logo: cppLogo },
-    ],
-  },
-  {
-    title: "Soft Skills",
-    skills: [
-      { name: "Problem Solving", logo: problemSolverIcon },
-      { name: "Quick Learner", logo: quickLearnerIcon },
-      { name: "Leadership", logo: leadershipIcon },
-      { name: "Teamwork", logo: teamIcon },
-      { name: "Automation", logo: automationIcon },
     ],
   },
 ];
