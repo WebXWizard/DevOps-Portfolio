@@ -21,11 +21,12 @@ import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
-import problemSolverIcon from "../assets/problem-solver.png";
-import quickLearnerIcon from "../assets/quick-learner.jfif";
-import leadershipIcon from "../assets/leadership.jpg";
-import teamIcon from "../assets/team.png";
-import automationIcon from "../assets/automation.jfif";
+import problemSolverIcon from "./assets/other-skills_logo/problem-solver.png";
+import quickLearnerIcon from "./assets/other-skills_logo/quick-learner.png";
+import leadershipIcon from "./assets/other-skills_logo/leadership.png";
+import teamIcon from "./assets/other-skills_logo/team.png";
+import automationIcon from "./assets/other-skills_logo/automation.png";
+import continuousIcon from "./assets/other-skills_logo/continuous-learning.png";
 
 // Experience Section Logo's
 
@@ -145,6 +146,7 @@ export const SkillsInfo = [
       { name: "Leadership", logo: leadershipIcon },
       { name: "Teamwork", logo: teamIcon },
       { name: "Automation", logo: automationIcon },
+      { name: "Continuous Learning", logo: continuousIcon },
     ],
   },
 ];
