@@ -51,7 +51,7 @@ const About = () => {
           <div className="flex justify-center lg:justify-start">
             <a
               href={resumePDF}
-              download="Shahe_Alam_DevOps_Resume.pdf"
+              download="Shahe Alam Resume -DevOps.pdf"
               className="inline-block text-white py-2 px-6 sm:py-3 sm:px-8 rounded-2xl mt-2 text-base sm:text-lg font-bold transition duration-300 transform hover:scale-105"
               style={{
                 background: 'linear-gradient(90deg, #8245ec, #a855f7)',
