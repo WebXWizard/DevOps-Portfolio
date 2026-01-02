@@ -235,8 +235,8 @@ export const projects = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     tags: ["Docker", "Jenkins", "AWS EC2", "Nginx", "GitHub Actions", "CI/CD"],
-    github: "https://github.com/WebXWizard",
-    webapp: "https://github.com/WebXWizard",
+    github: "https://github.com/WebXWizard/AWS_MERN-CI_CD-Project",
+    webapp: "https://github.com/WebXWizard/AWS_MERN-CI_CD-Project",
   },
   {
     id: 1,
@@ -246,8 +246,8 @@ export const projects = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
     tags: ["Terraform", "AWS VPC", "S3", "DynamoDB", "IaC"],
-    github: "https://github.com/WebXWizard",
-    webapp: "https://github.com/WebXWizard",
+    github: "https://github.com/WebXWizard/Terraform-AWS-Infrastructure",
+    webapp: "https://github.com/WebXWizard/Terraform-AWS-Infrastructure",
   },
   {
     id: 2,
@@ -257,8 +257,8 @@ export const projects = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
     tags: ["Kubernetes", "Minikube", "Prometheus", "Grafana", "Node.js"],
-    github: "https://github.com/WebXWizard",
-    webapp: "https://github.com/WebXWizard",
+    github: "https://github.com/WebXWizard/Kubernetes-Prometheus-Grafana",
+    webapp: "https://github.com/WebXWizard/Kubernetes-Prometheus-Grafana",
   },
   {
     id: 3,
@@ -317,8 +317,8 @@ export const projects = [
       "NextJS",
       "REST APIs",
     ],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    github: "https://github.com/WebXWizard/MINOR",
+    webapp: "https://github.com/WebXWizard/MINOR",
   },
   {
     id: 6,
