@@ -329,6 +329,6 @@ export const projects = [
     tags: ["HTML", "CSS", "JS", "TailwindCSS"],
     github: "https://github.com/WebXWizard/FITHUB-LANDING-PAGE/tree/main",
     webapp:
-      "https://fithub-landing-page.vercel.app/,
+      "https://fithub-landing-page.vercel.app/",
   },
 ];
