@@ -5,14 +5,10 @@ import javascriptLogo from "./assets/tech_logo/javascript.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
 import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
-import gsapLogo from "./assets/tech_logo/gsap.png";
-import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
-import cLogo from "./assets/tech_logo/c.png";
-import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import pythonLogo from "./assets/tech_logo/python.png";
 import gitLogo from "./assets/tech_logo/git.png";
@@ -235,8 +231,8 @@ export const projects = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     tags: ["Docker", "Jenkins", "AWS EC2", "Nginx", "GitHub Actions", "CI/CD"],
-    github: "https://github.com/WebXWizard",
-    webapp: "https://github.com/WebXWizard",
+    github: "https://github.com/WebXWizard/AWS_MERN-CI_CD-Project",
+    webapp: "https://github.com/WebXWizard/AWS_MERN-CI_CD-Project",
   },
   {
     id: 1,
@@ -246,8 +242,8 @@ export const projects = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
     tags: ["Terraform", "AWS VPC", "S3", "DynamoDB", "IaC"],
-    github: "https://github.com/WebXWizard",
-    webapp: "https://github.com/WebXWizard",
+    github: "https://github.com/WebXWizard/Terraform-AWS-Infrastructure",
+    webapp: "https://github.com/WebXWizard/Terraform-AWS-Infrastructure",
   },
   {
     id: 2,
@@ -257,8 +253,8 @@ export const projects = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
     tags: ["Kubernetes", "Minikube", "Prometheus", "Grafana", "Node.js"],
-    github: "https://github.com/WebXWizard",
-    webapp: "https://github.com/WebXWizard",
+    github: "https://github.com/WebXWizard/Kubernetes-Prometheus-Grafana",
+    webapp: "https://github.com/WebXWizard/Kubernetes-Prometheus-Grafana",
   },
   {
     id: 3,
@@ -317,8 +313,8 @@ export const projects = [
       "NextJS",
       "REST APIs",
     ],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    github: "https://github.com/WebXWizard/MINOR",
+    webapp: "https://github.com/WebXWizard/MINOR",
   },
   {
     id: 6,
