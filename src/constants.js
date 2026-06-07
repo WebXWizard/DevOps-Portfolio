@@ -5,10 +5,14 @@ import javascriptLogo from "./assets/tech_logo/javascript.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
 import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
+import gsapLogo from "./assets/tech_logo/gsap.png";
+import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
+import cLogo from "./assets/tech_logo/c.png";
+import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import pythonLogo from "./assets/tech_logo/python.png";
 import gitLogo from "./assets/tech_logo/git.png";
@@ -36,6 +40,9 @@ import avcicLogo from "./assets/education_logo/AVCIC.jpeg";
 
 // Project Section Logo's
 
+import devopsZeroHeroImg from "./assets/devops-zero-to-hero.png";
+import futureRolesImg from "./assets/future-roles.png";
+import profileImg from "./assets/Profile-Image-new.png";
 import ACDHLogo from "./assets/work_logo/Live.png";
 import MajorLogo from "./assets/work_logo/Major.png";
 import MinorLogo from "./assets/work_logo/Minor.png";
@@ -225,6 +232,26 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "DevOps Zero to Hero",
+    description:
+      "🚀 30-day DevOps transformation lab documenting an intensive sprint from absolute beginner to cloud-ready engineer. Covers CI/CD, Containerization, Infrastructure as Code, Kubernetes, Terraform, Ansible, and cloud platforms following a professional DevOps roadmap.",
+    image: devopsZeroHeroImg,
+    tags: ["DevOps", "Docker", "Kubernetes", "Terraform", "Ansible", "AWS", "CI/CD"],
+    github: "https://github.com/WebXWizard/DEVOPS-ZERO-TO-HERO",
+    webapp: "https://devops-portfolio-kappa.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Future Roles — Interview Prep Hub",
+    description:
+      "🚀 A structured revision workspace covering MERN Stack fresher interviews, DevOps fundamentals, AWS cloud services, CI/CD, containers, orchestration, IaC, and monitoring. A comprehensive study resource for landing top tech roles.",
+    image: futureRolesImg,
+    tags: ["MERN Stack", "DevOps", "AWS", "CI/CD", "Docker", "Kubernetes", "IaC"],
+    github: "https://github.com/WebXWizard/FUTURE-ROLES",
+    webapp: "https://github.com/WebXWizard/FUTURE-ROLES",
+  },
+  {
+    id: 2,
     title: "Automated MERN Deployment (CI/CD)",
     description:
       "Containerized a full-stack MERN application using Docker, ensuring consistency across environments. Designed an automated Jenkins pipeline integrated with GitHub Actions for seamless Build & Deploy. Deployed the application on AWS EC2, configuring Nginx as a reverse proxy for security.",
@@ -235,7 +262,7 @@ export const projects = [
     webapp: "https://github.com/WebXWizard/AWS_MERN-CI_CD-Project",
   },
   {
-    id: 1,
+    id: 3,
     title: "Infrastructure as Code using Terraform",
     description:
       "Provisioned a complete, reproducible AWS infrastructure (VPC, Subnets, Security Groups) using Terraform. Implemented remote state management using S3 bucket and DynamoDB for state locking.",
@@ -246,7 +273,7 @@ export const projects = [
     webapp: "https://github.com/WebXWizard/Terraform-AWS-Infrastructure",
   },
   {
-    id: 2,
+    id: 4,
     title: "Kubernetes Cluster with Monitoring",
     description:
       "Orchestrated a local Kubernetes cluster using Minikube and deployed a Node.js microservice. Integrated Prometheus and Grafana for real-time cluster monitoring (CPU, Memory).",
@@ -257,7 +284,7 @@ export const projects = [
     webapp: "https://github.com/WebXWizard/Kubernetes-Prometheus-Grafana",
   },
   {
-    id: 3,
+    id: 5,
     title: "Tech & Skill Center Website",
     description:
       "Build a Full Stack Webapp Using MERN Stack at Aadityaa Computer's & Digital Hub. Assisting in the development of web-based projects as part of the job. Collaborated with teams to create intuitive user experiences and optimize server performance. Improved debugging and problem-solving skills by troubleshooting website issues.",
@@ -278,7 +305,7 @@ export const projects = [
     webapp: "https://www.aadityaacomputer.com/",
   },
   {
-    id: 4,
+    id: 6,
     title: "DIY Innovators",
     description:
       "A dynamic, data-driven and E-Commerce platform designed to empower users and Children through DIY project resources and tutorials. The website features a clean, responsive UI and supports robust user interactions via secure authentication and a payment gateway.",
@@ -295,11 +322,11 @@ export const projects = [
       "TailwindCSS",
       "REST APIs",
     ],
-    github: "https://github.com/WebXWizard/MAJOR-DIY_Innovators",
-    webapp: "https://github.com/WebXWizard/MAJOR-DIY_Innovators",
+    github: "https://github.com/WebXWizard/DIY-INNOVATORS",
+    webapp: "https://github.com/WebXWizard/DIY-INNOVATORS",
   },
   {
-    id: 5,
+    id: 7,
     title: "React Library Directory",
     description:
       "A web-based library directory that enables users to browse, search, and manage library resources with ease. The application features a responsive interface and dynamic content updates for efficient data handling.",
@@ -317,14 +344,23 @@ export const projects = [
     webapp: "https://github.com/WebXWizard/MINOR",
   },
   {
-    id: 6,
+    id: 8,
     title: "ZoneFlex(Gym) Landing Page",
     description:
       "Welcome to PowerFit Gym(ZoneFlex), where strength meets style! Our sleek, modern landing page is designed to inspire and convert visitors into members. Built with HTML, CSS, JavaScript, and Tailwind CSS, this fully responsive site showcases high-energy visuals, interactive elements, and seamless navigation.",
     image: GYMLogo,
     tags: ["HTML", "CSS", "JS", "TailwindCSS"],
     github: "https://github.com/WebXWizard/FITHUB-LANDING-PAGE/tree/main",
-    webapp:
-      "https://fithub-landing-page.vercel.app/",
+    webapp: "https://fithub-landing-page.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "GitHub Profile README",
+    description:
+      "✨ A custom GitHub profile README that serves as a professional portfolio and technical showcase — a little window into the world of a DevOps & Full-Stack Developer. Highlights skills, projects, and journey in an engaging format.",
+    image: profileImg,
+    tags: ["GitHub", "Markdown", "Portfolio", "Profile"],
+    github: "https://github.com/WebXWizard/WebXWizard",
+    webapp: "https://github.com/WebXWizard/WebXWizard",
   },
 ];
